@@ -2,8 +2,6 @@
 # Find and fix the error
 
 text = "Hello World From Python"
-no_spaces = ""
-for char in text:
-    if char != " ":
-        no_spaces += char
+no_spaces = text.replace(" ", "")
 print(f"Without spaces: {no_spaces}")
+
