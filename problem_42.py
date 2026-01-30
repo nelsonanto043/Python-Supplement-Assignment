@@ -2,7 +2,6 @@
 # Find and fix the error
 
 words = ["Hello", "World", "Python"]
-sentence = ""
-for word in words:
-    sentence += word + " "
+sentence = " ".join(words)
 print(f"Sentence: {sentence}")
+
