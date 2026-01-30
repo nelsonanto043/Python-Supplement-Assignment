@@ -2,7 +2,10 @@
 # Find and fix the error
 
 def calculate_percentage(obtained, total):
+    if total == 0:
+        return 0
     percentage = (obtained / total) * 100
+    
     return percentage
 
 marks = 45
