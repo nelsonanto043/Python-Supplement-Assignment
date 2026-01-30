@@ -6,5 +6,6 @@ list2 = [4, 5, 6, 7, 8]
 common = []
 for item in list1:
     if item in list2:
+
         common.append(item)
 print(f"Common elements: {common}")
