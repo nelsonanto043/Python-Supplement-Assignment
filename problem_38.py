@@ -6,7 +6,8 @@ def sum_of_digits(n):
     while n > 0:
         digit = n % 10
         total += digit
-        n = n / 10
+        n = n // 10   
     return total
 
 print(f"Sum of digits of 12345: {sum_of_digits(12345)}")
+
