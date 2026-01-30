@@ -2,6 +2,7 @@
 # Find and fix the error
 
 def capitalize_words(text):
+    
     words = text.split()
     capitalized = []
     for word in words:
