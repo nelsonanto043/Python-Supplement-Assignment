@@ -7,6 +7,7 @@ negative = 0
 for num in numbers:
     if num > 0:
         positive += 1
-    else:
+    elif num < 0:
         negative += 1
-print(f"Positive: {positive}, Negative: {negative}")
+print(f"Positive: {positive}")
+print(f"Negative: {negative}")
