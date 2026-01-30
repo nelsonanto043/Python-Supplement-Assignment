@@ -7,4 +7,4 @@ def is_leap_year(year):
     else:
         return False
 
-print(f"Is 1900 a leap year? {is_leap_year(1900)}")
+print(f"Is 2014 a leap year? {is_leap_year(2014)}")
